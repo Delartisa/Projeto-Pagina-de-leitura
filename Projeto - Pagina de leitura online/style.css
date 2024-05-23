@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    text-align: center;
+}
+
+header, .box1, .box2, .box3 {
+    padding: 2rem;
+}
+
+header {
+    border-bottom: 0.1rem solid #000;
+}
+
+.joinin {
+    display: inline-block;
+    background-color: #000;
+    padding: 0.5rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 21rem;
+    border-radius: 999px;
+    border: 1rem solid;
+}
+
+li {
+    display: inline-block;
+    padding: 0 0.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.genre {
+    background-color: #48b2f8;
+    border-radius: 999px;
+    border: 0.5rem solid #48b2f8;
+}
+
+.seemore {
+    background-color: #000000;
+    border-radius: 999px;
+    border: 0.5rem solid #000000;
+}
+
+footer {
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+}
