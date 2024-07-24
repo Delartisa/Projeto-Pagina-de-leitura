@@ -1,0 +1,15 @@
+.inline {
+    display: inline;
+    /* INLINE: mantém a linha sem quebras, tem a largura mínima para o texto e não aceita padding nem margin verticalmente  ^^^*/
+    /*  */
+}
+
+.block {
+    display: block;
+    /* BLOCK: quebra linha e ocupa a largura máxima*/
+}
+
+.inline-block {
+    display: inline-block
+    /* Não quebra a linha, permite margin e padding sem quebrar linha */
+}

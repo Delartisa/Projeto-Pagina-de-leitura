@@ -1,0 +1,35 @@
+li:nth-child(2) {
+    color: #f00;
+}
+
+li:nth-child(2n) {
+    color: #0c0c27;
+}
+
+li:nth-child(2n - 1) {
+    color: #8383d8;
+}
+
+li:nth-child(even) {
+    color: #00f;
+}
+
+li:hover {
+    background-color: #a7a0a0;
+}
+
+input:focus {
+    background-color: #f00;
+}
+
+li::before {
+    content: " antes ) ";
+}
+
+li:first-child {
+    color: #292929;
+}
+
+li:not(:first-child) {
+    color: #f00;
+}

@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+    text-decoration: underline;
+    /* Podemos usar o "nome" para remover a decoração da fonte */
+    text-transform: uppercase;
+    /* Text transform serve para mudar a forma do texto, pode mudar para caixa alta, minúsculo, primeira letra da palavra em maiúsculo */
+}
+
+h1 {
+    font-size: larger;
+    /* Tamanho do texto */
+    font-family: 'Times New Roman', Times, serif;
+    /* Fonte, reserva, reserva 2 */
+    font-weight: 900;
+    /* Espessura da letra */
+    letter-spacing: 10px;
+    /* Espaçamento entre as letras */
+    font-style: italic;
+    /* Estilo da letra */
+
+    /* Ultilizamos o "sans" para retirar a serifa das letras */
+}

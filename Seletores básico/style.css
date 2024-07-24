@@ -1,0 +1,65 @@
+/* Seletor Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* É possível estilizar duas tags ao mesmo tempo, basta adicionar uma virgula */
+header, footer {
+    background-color: #333;
+    color: #ffff;
+    padding: 10px;
+}
+
+/* Seletor de elementos aninhados */
+/* É possivel selecionar uma "subtag" apenas escrevendo ela sem adicionar vírgula (não existe restrição para diretos e indiretos*/
+nav a {
+    color: #27ae60
+}
+
+/* Seletor de filhos */
+/* Seleciona uma subtag que esteja diretamente dentro de uma tag */
+nav > a {
+    display: block;
+    color: #f5a6f5;
+    padding: 10px;
+}
+
+/* Seletor de classes */
+/* Seleciona a categoria dentro do "class" */
+.laranja {
+    color: #f5a623
+}
+.verde {
+    color: #27ae60
+}
+
+/* Seletor de id */
+/* use # e o nome do id para selecioná-lo */
+#secao-principal {
+    padding: 20px;
+    /* text align para centralizar ou deixar em um lado especifico da página */
+    text-align: center;
+}
+
+/* Combinação de seletores */
+/* o * irá selecionar todos os itens dentro do id */
+#secao-principal > * {
+    margin-top: 10px;
+}
+
+/* Seletor de sequencia */
+/* seleciona a sequencia de uma tag */
+h2 + p {
+    padding: 30px;
+}
+
+/* seletores de propriedade */
+/* seleciona uma propriedade específica */
+input[name="email"] {
+    background-color: #f5a6f5;
+}
+
+input[type="password"] {
+    background-color: #333;
+}

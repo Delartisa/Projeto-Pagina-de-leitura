@@ -1,0 +1,15 @@
+p {
+    color: hotpink;
+}
+
+p {
+    color: blue;
+}
+
+p {
+    color: brown;
+}
+
+/* Por mais que várias cores estejam associadas a uma tag, o css
+funciona em cascata, de baixo para cima, então, no exemplo acima, a cor
+que irá prevalecer é a brown, então ficaria: brown, blue e hotpink por último */

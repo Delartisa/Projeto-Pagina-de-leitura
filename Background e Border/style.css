@@ -1,0 +1,49 @@
+body {
+    /* Para imagens, é necessário utilizar url e () para colocar o link da imagem */
+
+    /* No bkg image tambem podemos utilizar gradiente, com "bkg img" + linear-gradiente (to letf or right|45,60,90 deg) e suas funções */
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    background-size: auto; 
+
+    /* Background-size server para ajustar o tamanho e o preenchimento da imagem.
+    Podemos usar px para ajustar a imagem ou usar:
+    COVER - ajusta a imagem no site sem duplicata 
+    CONTAIN - 
+    AUTO - */
+
+    /* Background-repeat */
+}
+
+header {
+    background-color: #122580;
+    color: #126479
+}
+
+main {
+    background-color: #971a1a;
+    border-color: #553c3c;
+    /* Cor da borda */
+    border-width: 20px;
+    /* Tamanho da borda */
+    border-style: solid;
+    /* Estilo da borda (dotted, solid, dashed, double)*/
+}
+
+.box1 { /*quando vamos referenciar uma classe, é necessário adicionar um ponto antes*/
+
+    background-color: #122580;
+    height: 20px;
+    /* Altura */
+    width: 50px;
+    /* Largura */
+
+    /* É possível estabelecer todos os parâmetros da borda apenas usando "border" e especificando o tamanho, o estilo e a cor */
+    border: 4px solid #000000 ;
+}
+
+.box2 {
+    background-color: #ce5176;
+    border-radius: 5px;
+    /* Border radius para arrendodar as bordas das caixas
+    (voce tambem pode arrendondar uma borda especifica usando top-right-radius e suas funções*/
+}

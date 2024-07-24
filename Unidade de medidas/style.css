@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #ffff;
+    padding: 30px;
+}
+
+/* A unidade mais básica de medida é o pixel, mas como ela é uma medida fixa, pode ser que o resultado seja diferente em outros dispositivos ou telas. Por isso, não é a ideial para se trabalhar. */
+
+section {
+    height: 100px;
+    background-color: #ddd;
+} 
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    margin-top: 20px;
+    width: 75px;
+}
+
+.px {
+    height: 10px;
+}
+
+/* root element -> 16px * 3 = 48 px*/
+/* Ultiliza a altura da fonte padrão do usuário como base para o calculo, nesse exemplo, seria 3 vezes a altura do tamanho da fonte (padrão 16px) */
+.rem {
+    height: 3rem;
+/* REM é a unidade mais utilizada para medida de tamanho por conta de sua flexibilidade */
+}
+
+/* Tamanho varia conforme o elemento */
+.em {
+    font-size: 32px;
+    height: 2em;
+}
+
+/* a altura calculada baseada na area da seção (no caso) */
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewport height para adptar para outras telas (altura)*/
+.vh {
+    height: 30vh;
+}
+
+/* viewpoet width adaptar para (largura)*/
+.vw {
+    width: 50vw;
+}

@@ -1,0 +1,21 @@
+.box {
+    background-color: #f0f;
+    border: 2px dotted #380638;
+}
+
+.box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* Perceba que, existe margem tanto em cima quanto em baixo, mas elas acabam se mesclando/sobrepondo. */
+    margin-right: 30px;
+    margin-left: 30px;
+    /* Use o DEVTOOLS para uma melhor visualização da margem e o preenchimento */
+
+    /* Margem é o espaçamento externo do texto e
+     Padding é o espaçamento da parte interna do texto */
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
